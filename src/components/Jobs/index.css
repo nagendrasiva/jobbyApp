@@ -1,12 +1,35 @@
-.jobs-container {
+.all-jobs-section-with-header {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  flex-direction: column;
+  background-color: #000000;
   width: 100%;
+  min-height: 100vh;
 }
 
-.jobs-heading {
-  font-size: 30px;
-  color: white;
+.all-jobs-section {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .all-jobs-section {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .all-jobs-container {
+    width: 65%;
+    margin-left: 30px;
+  }
+
+  .all-jobs-filter-container {
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+  }
 }
