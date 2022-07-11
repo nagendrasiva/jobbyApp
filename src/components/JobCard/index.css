@@ -1,0 +1,147 @@
+.job-card-container {
+  list-style-type: none;
+  margin-bottom: 30px;
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 1;
+  margin-right: 20px;
+}
+
+.link-item {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 100%;
+  text-decoration: none;
+  background-color: #272727;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px 4px #7e858e;
+}
+
+.job-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.company-logo-image {
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .company-logo-image {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.job-name-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.job-title-heading {
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .job-title-heading {
+    font-size: 18px;
+  }
+}
+
+.logo-rating-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.star-logo {
+  width: 16px;
+  height: 16px;
+  color: #fbbf24;
+  margin-right: 10px;
+}
+
+.rating-number {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.location-and-package-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.location-and-job-type-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.location-logo {
+  height: 16px;
+  width: 16px;
+  color: #f1f5f9;
+}
+
+.location-name {
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  color: #f1f5f9;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.package-per-annum-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  color: #f1f5f9;
+  margin-right: 5px;
+}
+
+.hr-line {
+  width: 100%;
+  border: 2px solid #b6c5ff;
+}
+
+.job-description-heading {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #f1f5f9;
+}
+
+@media screen and (min-width: 768px) {
+  .job-description-heading {
+    font-size: 20px;
+  }
+}
+
+.job-description {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  color: #f1f5f9;
+}
+
+@media screen and (min-width: 768px) {
+  .job-description {
+    font-size: 16px;
+  }
+}
